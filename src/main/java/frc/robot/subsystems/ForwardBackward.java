@@ -34,11 +34,14 @@ public class ForwardBackward extends SubsystemBase {
   }
 
   public void forward(double speed){
+    /* 
     if(!limitForward.get()){
       arLifterForwardMotor.set(ControlMode.PercentOutput, speed * -1);
     }else{
       arLifterForwardMotor.set(ControlMode.PercentOutput, 0);
-    }
+    }*/
+    arLifterForwardMotor.set(ControlMode.PercentOutput, 1);
+    arLifterBackwardMotor.set(ControlMode.PercentOutput, -1);
     System.out.println(limitForward.get());
   }
   public void stop(){

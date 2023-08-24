@@ -5,7 +5,7 @@ import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 public final class Constants {
-  private static final int chassisMotorL1_ID = 10;
+  private static final int chassisMotorL1_ID = 1;
   private static final int chassisMotorL2_ID = 5;
   private static final int chassisMotorR1_ID = 7;
   private static final int chassisMotorR2_ID = 6;

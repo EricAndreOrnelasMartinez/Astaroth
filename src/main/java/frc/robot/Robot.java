@@ -35,6 +35,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void robotInit() {
+    /* 
     cam1 = CameraServer.startAutomaticCapture();
     cam1.setBrightness(1);
     cam1.setResolution(5, 5);
@@ -42,7 +43,7 @@ public class Robot extends TimedRobot {
     cam2 = CameraServer.startAutomaticCapture();
     cam2.setBrightness(1);
     cam2.setResolution(5, 5);
-    cam2.setFPS(5);
+    cam2.setFPS(5);*/
     Constants.init();
     m_Chassis = new Chassis();
     m_ArmUpDwon = new ArmUpDwon();
